@@ -1,4 +1,14 @@
 {
-    "Places":[{
-        
-    }]}
+  "Places": [
+    {
+      "Place": "hi",
+      "FavLocation": "hihi",
+      "id": 1
+    },
+    {
+      "Place": "kjk",
+      "FavLocation": "jjjk",
+      "id": 2
+    }
+  ]
+}
