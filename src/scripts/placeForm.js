@@ -6,6 +6,7 @@ const FormManager = Object.create(null, {
         value: () => {
             document.querySelector("#entryTitle").value = ""
             document.querySelector("#entryContent").value = ""
+            document.querySelector("#placeurl").value = ""
         }
     },
     renderEntryForm: {

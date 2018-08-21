@@ -5,7 +5,7 @@ const entryComponent = (item) => {
                 <h2>${item.Name}:${item.FavoritePlaceName}</h2>
             </header>
             <article  id="place-image">
-            <img id="myImg" src="${item.image} alt="${item.FavoritePlaceName}" width="304" height="228">
+            <img id="myImg" src="${item.image}" alt="${item.FavoritePlaceName}" style="width:304; height:228;">
             </article>
             <button class="entry__delete" id="delete--${item.id}">Delete</button>
             </div>
