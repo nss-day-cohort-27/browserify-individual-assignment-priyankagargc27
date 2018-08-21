@@ -1,14 +1,16 @@
 {
   "Places": [
     {
-      "Name": "Agra",
-      "FavoritePlaceName": "Taj Mahal",
-      "id": 3
+      "Name": "Jaipur",
+      "FavoritePlaceName": "Rambagh",
+      "image": "https://images.thrillophilia.com/image/upload/s--nDJNyNO0--/c_fill,f_auto,fl_strip_profile,h_446,q_auto,w_750/v1/images/photos/000/046/200/original/rambagh-20palace.jpg.jpg?1453316315",
+      "id": 4
     },
     {
-      "Name": "Agra",
-      "FavoritePlaceName": "Taj mahal",
-      "id": 4
+      "Name": "nashville",
+      "FavoritePlaceName": "smoky",
+      "image": "https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1518710750/smoky-mountains-TRAINRIDE0218.jpg?itok=Sg0__5_3",
+      "id": 5
     }
   ]
 }
