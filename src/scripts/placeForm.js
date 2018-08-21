@@ -11,14 +11,20 @@ const FormManager = Object.create(null, {
     renderEntryForm: {
         value: () => {
             return `
+            <div id="header">
+            <h2> My Favorite Place </h2>
+            </div>
                 <fieldset class="placeField">
-                    <label for="entryTitle">Name</label>
+                    <label for="entryTitle">City Name</label>
                     <input required type="text" id="entryTitle" placeholder="Place">
                 </fieldset>
                 <fieldset class="journalField">
                     <label for="entryContent">Favorite Place</label>
                     <input required type="text" id="entryContent" placeholder="Place">
-                    
+                    </fieldset>
+                    <fieldset>
+                    <label for="placeurl">Enter url for Place:</label>
+                    <input required type="text" id="placeurl" placeholder="image url">
                 </fieldset>
                 <button id="saveEntryButton">Save Place</button>
             `

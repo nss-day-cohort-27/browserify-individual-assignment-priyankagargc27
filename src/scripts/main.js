@@ -31,7 +31,9 @@ document.querySelector("#saveEntryButton").addEventListener("click", () => {
     // Add timestamp
     const newPlace = {
         Name: document.querySelector("#entryTitle").value,
-        FavoritePlaceName: document.querySelector("#entryContent").value
+        FavoritePlaceName: document.querySelector("#entryContent").value,
+        image:document.querySelector("#placeurl").value
+
     }
 
     // POST to API
