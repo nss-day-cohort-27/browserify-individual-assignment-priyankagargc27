@@ -2,18 +2,20 @@ const entryComponent = (item) => {
     return `
         <div class="entry">
             <header class="entry__header">
-                <h2>${item.Name}</h2>
+                <h2>${item.Name}:${item.FavoritePlaceName}</h2>
             </header>
-            <article class="entry__content">
-                ${item.FavoritePlaceName}
+            <article  id="place-image">${item.image}
+            <img id="myImg" src="https://www.tmb.ie/wp/wp-content/uploads/2015/10/india-travel-tips.jpg" alt="TajMahal" width="304" height="228">
             </article>
-            
             <button class="entry__delete" id="delete--${item.id}">Delete</button>
-        </div>
-    `
-}
+            </div>
+            `
+        }
 
 module.exports = entryComponent
+            // <article class="entry__content">
+            //   <h2>  ${item.FavoritePlaceName}</h2>
+            // </article>
 
 
 

@@ -11,8 +11,8 @@ const FormManager = Object.create(null, {
     renderEntryForm: {
         value: () => {
             return `
-                <fieldset class="journalField">
-                    <label for="entryTitle">Place</label>
+                <fieldset class="placeField">
+                    <label for="entryTitle">Name</label>
                     <input required type="text" id="entryTitle" placeholder="Place">
                 </fieldset>
                 <fieldset class="journalField">

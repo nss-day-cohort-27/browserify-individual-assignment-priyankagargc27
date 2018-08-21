@@ -1,14 +1,14 @@
 {
   "Places": [
     {
-      "Place": "hi",
-      "FavLocation": "hihi",
-      "id": 1
+      "Name": "Agra",
+      "FavoritePlaceName": "Taj Mahal",
+      "id": 3
     },
     {
-      "Place": "kjk",
-      "FavLocation": "jjjk",
-      "id": 2
+      "Name": "Agra",
+      "FavoritePlaceName": "Taj mahal",
+      "id": 4
     }
   ]
 }

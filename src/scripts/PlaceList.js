@@ -11,10 +11,10 @@ const titleElement = () => {
     `
 }
 
-const entryList = (entries) => {
+const entryList = (Places) => {
     listElement.innerHTML = titleElement()
 
-    entries.map(entry => {
+    Places.map(entry => {
         listElement.innerHTML += entryComponent(entry)
     })
 }

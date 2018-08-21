@@ -9,7 +9,9 @@ document.querySelector("#Placeform").innerHTML = FormManager.renderEntryForm()
 // Render the list of entries
 const listEntries = () => {
     DataManager.getPlaces()
-        .then(allEntries => placeList(allEntries))
+    //console.log(allEntries)
+        .then(allEntries =>
+             placeList(allEntries))
 }
 
 listEntries()
@@ -28,19 +30,21 @@ document.querySelector("#saveEntryButton").addEventListener("click", () => {
     // Create object from them
     // Add timestamp
     const newPlace = {
-        Place: document.querySelector("#entryTitle").value,
-        FavLocation: document.querySelector("#entryContent").value
+        Name: document.querySelector("#entryTitle").value,
+        FavoritePlaceName: document.querySelector("#entryContent").value
     }
 
     // POST to API
     DataManager.savePlaces(newPlace).then(() => {
             // Clear the form fields
+            //console.log(newPlace)
             FormManager.clearForm()
             $("#entryList").html("")
             // DataManager.getPlaceEntry()
             //     .then(places => {
             //         placeList(places);
-                    placeList()
+                    //placeList()
+                    listEntries()
                 })
         })
 
