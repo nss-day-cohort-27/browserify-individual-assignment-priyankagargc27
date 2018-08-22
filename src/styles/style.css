@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://wallpapercave.com/wp/y1UH6zu.jpg");
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/05/05/91/14596a1ec1991f8.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ label {
         box-shadow: 0 9px #999;
     }
     #saveEntryButton:hover {background-color:brown}
-    footer {
+    #footer {
         text-align: center;
         color: white;
         position: absolute;
